@@ -1,0 +1,13 @@
+<author_id>:
+  name: Juha Sadeharju
+  url: https://sadeharju.org
+  avatar: /assets/img/avatar.png
+  bio: Notes and observations on life, the universe, and games.
+  location: Helsinki, Finland
+  social:
+    - type: github
+      url: https://github.com/jsade
+    - type: linkedin
+      url: https://www.linkedin.com/in/juhasadeharju
+    - type: bsky
+      url: https://bsky.app/profile/jsadeh.bsky.social
