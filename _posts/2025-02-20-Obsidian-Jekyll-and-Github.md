@@ -1,12 +1,17 @@
 ---
 layout: post
 date: 2025-02-20 12:00:00 +0000
-categories: general
+categories:
+  - ”Knowledge Management"
+tags:
+  - github
+  - jekyll
+  - obsidian
 date created: 2025-02-20 17:49:44
-date modified: 2025-02-22 00:33:32
+date modified: 2025-02-22 00:40:24
 created: 2025-02-20T17:49
-updated: 2025-02-22T00:33
-mermaid: false
+updated: 2025-02-22T00:40
+mermaid: true
 title: 2025-02-20 Obsidian, Jekyll, and Github
 ---
 
@@ -19,7 +24,7 @@ After studying what options there are, I've settled into [Jekyll](https://jekyll
 ```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
 graph LR;
-	A("Obsidian") --> B[/"Jekyll"/] --> C@{ shape: docs, label: "Github Pages" }
+	A("**Obsidian**<br>My fav text editor") --> B[/"**Jekyll**<br>for generating static sites"/] --> C@{ shape: docs, label: "**Github Pages**<br>for publishing the site" }
 
 
 ```
