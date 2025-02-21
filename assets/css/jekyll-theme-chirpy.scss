@@ -1,0 +1,72 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == ' production ' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+header,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 550;
+}
+
+#sidebar .site-title {
+  font-weight: 600;
+}
+
+.content > p,
+ul,
+blockquote {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Segoe UI Emoji';
+  font-size: 1rem;
+}
+
+.footnotes {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Segoe UI Emoji';
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+
+/**
+
+#toc-bar .label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Segoe UI Emoji';
+}
+
+#toc-popup #toc-popup-content {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Segoe UI Emoji';
+}
+
+#toc-popup {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Segoe UI Emoji';
+}
+
+#toc-popup .header .label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Segoe UI Emoji';
+}
+
+#toc-popup #toc-popup-content .toc-title {
+}
+**/
