@@ -32,7 +32,7 @@ There's very little I'm _not_ using it for right now, as it covers my requiremen
 
 ## From Obsidian to Web
 
-Sometimes my <mark>writing</mark> includes content or topics that I think might be interesting to others. So, why not make it easy to publish these notes straight from Obsidian to some public web server?
+Sometimes my writing includes content or topics that I think might be interesting to others. So, why not make it easy to publish these notes straight from Obsidian to some public web server?
 
 After some consideration I've settled into the following workflow:
 
@@ -41,17 +41,14 @@ After some consideration I've settled into the following workflow:
 3. **Static Site Generation**: [Jekyll](https://jekyllrb.com) transforms the processed markdown into a modern, responsive website. It handles all the templating, creates category pages, generates RSS feeds, and ensures proper SEO structure.
 4. **Seamless Deployment**: The built site is automatically committed to [GitHub](https://github.com), which triggers a [GitHub Action](https://github.com/features/actions) to deploy to [GitHub Pages](https://pages.github.com/). This provides version control, rollback capability, and reliable hosting without any manual intervention.
 
-{% raw %}
-<div class="mermaid">
+```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
 graph LR;
 A("**Obsidian**<br>Markdown editing") --> B("**obsidian-jekyll-plugin**<br>Process files & assets")
     B --> C[/"**Jekyll**<br>Build static site"/]
     C --> D("**GitHub Repo**<br>Version control")
     D --> E{"**GitHub Pages**<br>Web hosting"}
-
-</div>
-{% endraw %}
+```
 
 ## Why This Setup?
 
