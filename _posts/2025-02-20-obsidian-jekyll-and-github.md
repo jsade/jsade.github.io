@@ -39,15 +39,14 @@ After some consideration I've settled into the following workflow:
 3. **Static Site Generation**: [Jekyll](https://jekyllrb.com) transforms the processed markdown into a modern, responsive website. It handles all the templating, creates category pages, generates RSS feeds, and ensures proper SEO structure.
 4. **Seamless Deployment**: The built site is automatically committed to [GitHub](https://github.com), which triggers a [GitHub Action](https://github.com/features/actions) to deploy to [GitHub Pages](https://pages.github.com/). This provides version control, rollback capability, and reliable hosting without any manual intervention.
 
-<div class="mermaid">
+```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
 graph LR;
 A("**Obsidian**<br>Markdown editing") --> B("**obsidian-jekyll-plugin**<br>Process files & assets")
     B --> C[/"**Jekyll**<br>Build static site"/]
     C --> D("**GitHub Repo**<br>Version control")
     D --> E{"**GitHub Pages**<br>Web hosting"}
-
-</div>
+```
 
 ## Why This Setup?
 
