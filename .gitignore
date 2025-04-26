@@ -28,4 +28,6 @@ assets/js/dist
 
 #OS
 .DS_Store
-**/._.DS_Store
+**/._*.*
+_posts/._*.*
+_posts/._*
