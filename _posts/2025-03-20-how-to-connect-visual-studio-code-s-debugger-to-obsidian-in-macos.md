@@ -5,8 +5,10 @@ tags:
   - obsidian-plugins
   - devtools
 created: 2025-03-20 14:24:01
-updated: 2025-04-26 20:49:49
+updated: 2025-04-27 13:07:35
 title: "How to connect Visual Studio Code's debugger to Obsidian in MacOS"
+categories:
+  - Development
 date: 2025-03-20 12:24:01 +0000
 ---
 
@@ -15,7 +17,7 @@ This file was automatically converted by Jekyll Publisher for Obsidian.
 https://github.com/jsade/obsidian-jekyll-plugin
 
 Version: 1.0.1
-Conversion date: 2025-04-26 18:56:06 +0000
+Conversion date: 2025-04-27 10:08:12 +0000
 -->
 
 
